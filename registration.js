@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('JavaScript is work!Yay');
-    const registerButton - document.querySelector('.register-btn');
+    const registerButton = document.querySelector('.register-btn');
     if (!registerButton) {
         console.error('Button with class .register-btn not found');
         return;
